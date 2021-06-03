@@ -56,7 +56,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #e6e6e6;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -5763,7 +5763,11 @@ textarea.form-control-lg {
   position: relative;
   display: none;
   float: left;
-  width: 100%;
+  width: 103%;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .5rem;
+  padding-bottom: 4rem;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -5852,10 +5856,12 @@ textarea.form-control-lg {
 
 .carousel-control-prev {
   left: 0;
+  top: 6rem;
 }
 
 .carousel-control-next {
   right: 0;
+  top: 6rem;
 }
 
 .carousel-control-prev-icon,
@@ -5882,6 +5888,7 @@ textarea.form-control-lg {
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  
 }
 
 .carousel-indicators {
@@ -5894,7 +5901,7 @@ textarea.form-control-lg {
   justify-content: center;
   padding: 0;
   margin-right: 15%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
   margin-left: 15%;
   list-style: none;
 }
@@ -6574,6 +6581,11 @@ textarea.form-control-lg {
 
 .w-75 {
   width: 75% !important;
+}
+
+.w-95 {
+  width: 95% !important;
+  margin: 0.8% 0 -2.2% 1%;
 }
 
 .w-100 {
