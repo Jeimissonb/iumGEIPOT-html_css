@@ -2,7 +2,7 @@
 #### GEIPOT - _http://geipot.gov.br_ 
 ### **Reescrita do site GEIPOT utilizando as boas práticas de IUM**
 ## Team
-- Francisco Jeimisson
+- Jeimisson Barbosa
 - Marcos Freitas
 - Zaqueu Rodrigues
 
