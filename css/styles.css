@@ -212,7 +212,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #000000;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -7407,6 +7407,10 @@ textarea.form-control-lg {
 
 .bg-primary {
   background-color: #1abc9c !important;
+}
+
+.bg-primarytwo {
+  background-color: #0d6efd !important;
 }
 
 .bg-secondary {
