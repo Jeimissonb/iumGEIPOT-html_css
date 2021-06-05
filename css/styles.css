@@ -653,6 +653,7 @@ progress {
   margin-top: var(--bs-gutter-y);
 }
 
+
 .col {
   flex: 1 0 0%;
 }
@@ -2947,6 +2948,7 @@ textarea.form-control-lg {
   pointer-events: none;
   opacity: 0.65;
 }
+
 
 .btn-primary {
   color: #fff;
